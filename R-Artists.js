@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         A1111 - Random Artists to Prompt
-// @version      0.3.1
+// @version      0.3.2
 // @namespace    https://github.com/CryDotCom/Random-E621-Artist-A1111
 // @updateURL    https://raw.githubusercontent.com/CryDotCom/Random-E621-Artist-A1111/master/R-Artists.js
 // @downloadURL  https://raw.githubusercontent.com/CryDotCom/Random-E621-Artist-A1111/master/R-Artists.js
@@ -72,7 +72,7 @@
     }
 
     // Register the menu command
-    GM_registerMenuCommand('Add Random Artists', function () {
+    GM_registerMenuCommand('Add Artists', function () {
         const url = 'https://raw.githubusercontent.com/CryDotCom/Random-E621-Artist-A1111/main/Artist-Names-E621.txt';
         loadNamesFromURL(url, function (names) {
             addNamesToTextarea(names);
