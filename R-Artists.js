@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         A1111 - Random Artists to Prompt
-// @version      0.3
+// @version      0.3.1
 // @namespace    https://github.com/CryDotCom/Random-E621-Artist-A1111
 // @updateURL    https://raw.githubusercontent.com/CryDotCom/Random-E621-Artist-A1111/master/R-Artists.js
 // @downloadURL  https://raw.githubusercontent.com/CryDotCom/Random-E621-Artist-A1111/master/R-Artists.js
