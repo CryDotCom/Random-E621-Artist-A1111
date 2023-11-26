@@ -1,7 +1,9 @@
 // ==UserScript==
 // @name         Add Random Artists to Prompt
-// @namespace    http://tampermonkey.net/
 // @version      0.2
+// @namespace    https://github.com/CryDotCom/Random-E621-Artist-A1111
+// @updateURL    https://raw.githubusercontent.com/CryDotCom/Random-E621-Artist-A1111/master/R-Artists.js
+// @downloadURL  https://raw.githubusercontent.com/CryDotCom/Random-E621-Artist-A1111/master/R-Artists.js
 // @description  Add randomly chosen E621 Artist names to a textarea from the top 700+ sorted by post count
 // @author       Onocom/Crydotcom
 // @match        http://127.0.0.1:7860
