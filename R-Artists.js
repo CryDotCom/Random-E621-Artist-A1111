@@ -71,7 +71,7 @@
 
     // Register the menu command
     GM_registerMenuCommand('Add Random Artist Names to Textarea', function () {
-        const url = 'https://huggingface.co/Onocom/Ono-FurryMixes/raw/main/Old-Failed-Models/Artist%20Names%20combined.txt';
+        const url = 'https://raw.githubusercontent.com/CryDotCom/Random-E621-Artist-A1111/main/Artist%20Names%20E621.txt';
         loadNamesFromURL(url, function (names) {
             addNamesToTextarea(names);
         });
